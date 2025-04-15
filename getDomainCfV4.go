@@ -60,7 +60,7 @@ func main() {
 	}
 
 	client := cloudflare.NewClient(
-		option.WithAPIKey("d93d508d3125411dfab702c636a2adad63248"), // defaults to os.LookupEnv("CLOUDFLARE_API_KEY")
+		option.WithAPIKey("api key"), // defaults to os.LookupEnv("CLOUDFLARE_API_KEY")
 		option.WithAPIEmail("azulsoftwarevlc@gmail.com"),               // defaults to os.LookupEnv("CLOUDFLARE_EMAIL")
 	)
 
